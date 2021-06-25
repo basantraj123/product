@@ -1,0 +1,44 @@
+body{
+	margin-top: 0px;
+	background: url(../images/repeater.png) repeat-x;
+	color: #ffffff;
+	font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#mainWrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 894px;
+}
+
+#mainContent{
+	background: url(../images/content-repeater.png) repeat-y;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: -4px;
+}
+
+.blockContent {
+	width: 200px;
+	float: left;
+}
+
+.blockContent p {
+	color: #c6d2df;
+}
+
+.blockContent h3 {
+	text-shadow: 0px 2px 0px #000;
+	filter: dropshadow(color=#000, offx=0, offy=2);
+}
+
+.PLRBlock {
+	height: 522px;
+	width: 267px;
+	position:fixed;
+	top:30px;
+	right:5px;
+	z-index: 121212px;
+}
